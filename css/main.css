@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Inconsolata', monospace;
+    margin: 0;
+    padding: 0;
+}
+
+.first, .second{
+    padding: 0;
+}
+
+.mainContainer, .emptyContainer{
+    border: 2px solid black;
+    height: 220px;
+    margin: 5px;
+    padding: 5px;
+    width: 330px;
+}
+
+img{
+    cursor: move;
+    height: auto;
+    width: 100px;
+}
