@@ -9,7 +9,15 @@
     padding: 0;
 }
 
-.mainContainer, .emptyContainer{
+.emptyContainer{
+    border: 1px solid black;
+    height: 220px;
+}
+.emptyContainer.large {
+    height: 440px;
+}
+
+.mainContainer{
     border: 2px solid black;
     height: 220px;
     margin: 5px;
